@@ -1,0 +1,34 @@
+{
+    // time between each check (seconds)
+    "default-internal-time":30,
+    // 1 -> Email
+    // 2 -> IFTTT
+    // 3 -> Telegram
+    "send_Mode":3,
+    "email": {
+        "smtp_url": "smtp.gmail.com:587",
+        // sender gmail
+        "sender": "MAIL_ACCOUNT_ADDRESS",
+        "sender-password": "MAIL_ACCOUNT_PWD",
+        // receivers emails (full format, can be mutiple)
+        "receivers": ["receiver-mail-address-1","receiver-mail-address-2"]
+    },
+    "IFTTT": {
+        "key": "IFTTT_KEY",
+        "eventName": "IFTTT_EVENT_NAME"
+    },
+    "Telegram": {
+        "botToken": "1038121662:AAF5mT5Zi4_gQJ9i2gD0DD6MvSsfcfcC0Fk",
+        "chatId": "-1001327135247"
+    },
+    // amazon base url
+    "amazon-base_url": "https://www.amazon.in/dp/",
+    "xpath_selector" : {
+        "price": "//*[@id='priceblock_ourprice']",
+        "productname": "//*[@id='productTitle']"
+    },
+    "item-to-parse": [
+        // item id , your expected price, productname(optional)
+        ["B0896VCTQX",500,"earphone"],["B07CMGVPZ1",1000,"hometheatre"],["B01EK8CD98",3000,"hdd"]
+    ]
+}
