@@ -173,7 +173,7 @@ def get_price(url, selector):
     })
 
         r.raise_for_status()
-	isbotalive()
+        isbotalive()
         #print(proxies)
     except :
         print("BANNED")
