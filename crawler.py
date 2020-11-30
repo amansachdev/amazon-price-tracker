@@ -40,6 +40,13 @@ IFTTT_EventName = ""
 # msg_content format
 # msg_content['Subject'] = 'Subject'
 # msg_content['Content'] = 'This is a content'
+def isbotalive():
+    botToken = "1458960461:AAGNsxDSNl-begwUquQu1NgkilJ_hc5szA0"
+    chatId = "-1001388198553"
+    bot = telegram.Bot(botToken)
+    now = datetime.now()
+    current_time = now.strftime("%H:%M:%S")
+    bot.send_message(chat_id=chatId, text="hello there i am still working for you and time is \n"+ current_time)
 def random_line(fname):
     lines = open(fname).read().splitlines()
     return random.choice(lines)
@@ -166,6 +173,7 @@ def get_price(url, selector):
     })
 
         r.raise_for_status()
+	isbotalive()
         #print(proxies)
     except :
         print("BANNED")
