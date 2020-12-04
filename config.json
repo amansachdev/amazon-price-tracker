@@ -29,6 +29,6 @@
     },
     "item-to-parse": [
         // item id , your expected price, productname(optional)
-        ["B0896VCTQX",500,"earphone"],["B07CMGVPZ1",1000,"hometheatre"],["B01EK8CD98",3000,"hdd"]
+        ["B07CMGVPZ1",1000,"hometheatre"],["B01EK8CD98",3000,"hdd"],["product/B07BMRFML8/ref=ox_sc_act_title_1?smid=A1X54IAKXCWO8D&psc=1",500,"speaker"]
     ]
 }
