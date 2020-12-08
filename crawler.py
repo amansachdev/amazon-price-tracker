@@ -24,7 +24,7 @@ from datetime import date, datetime, timedelta
 #iplist = ['162.208.48.84:8118','165.138.4.41:8080']
 #proxies = {'https':random.choice(iplist) }
 #print(proxies)
-client = ScraperAPIClient('cb34878c7394455b354fc5ef2f6d1bce')
+client = ScraperAPIClient('2f0cfeee222a31859a0d1985ff11e928')
 ua = UserAgent.UserAgent()
 #imported_proxy = random_proxy.random_proxies()
 #print(imported_proxy)
