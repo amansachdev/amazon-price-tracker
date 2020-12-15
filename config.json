@@ -29,6 +29,6 @@
     },
     "item-to-parse": [
         // item id , your expected price, productname(optional)
-        ["B07CMGVPZ1",1000,"hometheatre"],["B01EK8CD98",3000,"hdd"],["product/B07BMRFML8/ref=ox_sc_act_title_1?smid=A1X54IAKXCWO8D&psc=1",500,"speaker"],["B07QDSKGRD",500,"microphone"]
+        ["B07PNPLCFY",6000,"monitor"],["B07SV8WX9B",100,"harpic"],["product/B07BMRFML8/ref=ox_sc_act_title_1?smid=A1X54IAKXCWO8D&psc=1",500,"speaker"],["B07QDSKGRD",500,"microphone"]
     ]
 }
