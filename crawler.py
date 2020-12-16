@@ -297,7 +297,7 @@ def main():
                 msg_content['ServerState'] = ""
                 msg_content['code'] = 1 # 2 is server state
                 send_Notification(msg_content)
-                items.remove(item)
+                #items.remove(item)
             else:
                 print(('[#%02d] %s\'s price is %s. Ignoring...' % (itemIndex,productName,price)))
             itemIndex += 1
