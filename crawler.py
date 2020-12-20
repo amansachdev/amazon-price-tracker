@@ -69,7 +69,7 @@ def telegram_alert(msg_content):
     # 2 is server working msg
     # 3 is server shutdown
     if msg_content['code'] == 1:
-        message = "BIS Rs." + str(msg_content['Price']) + "\n" + "\n" + msg_content['Product'] + "\n" + "\n" + msg_content['URL']
+        message = "BIS Rs." + str(msg_content['Price']) + "\n" + "\n" + msg_content['Product'] + "\n" + "\n" + msg_content['URL'] +"??tag=nishchal-21"
 
     elif msg_content['code'] == 2:
         message = '🔴' + msg_content['Content']
