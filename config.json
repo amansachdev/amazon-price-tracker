@@ -29,6 +29,6 @@
     },
     "item-to-parse": [
         // item id , your expected price, productname(optional)
-        ["B07PNPLCFY",6000,"monitor"],["B07SV8WX9B",100,"harpic"],["product/B07BMRFML8/ref=ox_sc_act_title_1?smid=A1X54IAKXCWO8D&psc=1",500,"speaker"],["B07QDSKGRD",500,"microphone"]
+        ["B07MDQGDL4",200,"mints"],["B07R39FHJX",250,"jbl"],["product/B07BMRFML8/ref=ox_sc_act_title_1?smid=A1X54IAKXCWO8D&psc=1",500,"speaker"],["B07QDSKGRD",500,"microphone"],["B07PW8T534",250,"jbl1"],["B07C8VBHCB",250,"jbl2"]
     ]
 }
