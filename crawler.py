@@ -200,7 +200,7 @@ def get_price(url, selector):
         price_string = re.findall('\d+.\d+', tree.xpath(selector['price'])[0].text)[0]
         return float(price_string.replace(',', '')),productName
     
-    except IndexError as TypeError:
+    except:
         print('Didn\'t find the \'price\' element, trying again later...')
         
         # be banned, send mail then shut down
