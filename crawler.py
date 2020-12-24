@@ -181,7 +181,7 @@ def get_price(url, selector):
         productName = ""
         productName_results = tree.xpath(selector['productname'])
         #print(proxies)
-	if not productName_results:
+        if not productName_results:
         # raise Exception("Product Name does not exist")
             print('Didn\'t find the \'product-name\' element, trying again later...')
         else :
