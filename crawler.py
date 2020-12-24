@@ -176,13 +176,14 @@ def get_price(url, selector):
 
         r.raise_for_status()
         isbotalive()
+	tree = html.fromstring(r.text)
+	# find product name
+	productName = ""
+	productName_results = tree.xpath(selector['productname'])
         #print(proxies)
     except :
         print("BANNED")
-    tree = html.fromstring(r.text)
-	# find product name
-    productName = ""
-    productName_results = tree.xpath(selector['productname'])
+
 
     if not productName_results:
         # raise Exception("Product Name does not exist")
